@@ -1,0 +1,98 @@
+[
+    {
+        "x": -2300,
+        "y": 1800,
+        "type": "observer",
+        "desc": "Roshan Cliff Hidden"
+    },
+    {
+        "x": -600,
+        "y": 1900,
+        "type": "observer",
+        "desc": "River Top Water Trees"
+    },
+    {
+        "x": 800,
+        "y": -1900,
+        "type": "observer",
+        "desc": "River Bot Water Trees"
+    },
+    {
+        "x": -2800,
+        "y": 900,
+        "type": "sentry",
+        "desc": "Roshan Sentry"
+    },
+    {
+        "x": 4800,
+        "y": -3800,
+        "type": "observer",
+        "desc": "Rad Safe T1 Behind Trees"
+    },
+    {
+        "x": -1700,
+        "y": -4200,
+        "type": "observer",
+        "desc": "Rad Jungle Deep Edge"
+    },
+    {
+        "x": -3200,
+        "y": -3800,
+        "type": "observer",
+        "desc": "Rad Jungle High Ground Ramp"
+    },
+    {
+        "x": 3500,
+        "y": -6200,
+        "type": "observer",
+        "desc": "Rad Bottom T2 Jungle"
+    },
+    {
+        "x": -4800,
+        "y": 3800,
+        "type": "observer",
+        "desc": "Dire Safe T1 Behind Trees"
+    },
+    {
+        "x": 1700,
+        "y": 4200,
+        "type": "observer",
+        "desc": "Dire Jungle Deep Edge"
+    },
+    {
+        "x": 3200,
+        "y": 3800,
+        "type": "observer",
+        "desc": "Dire Jungle High Ground Ramp"
+    },
+    {
+        "x": -3500,
+        "y": 6200,
+        "type": "observer",
+        "desc": "Dire Top T2 Jungle"
+    },
+    {
+        "x": -4500,
+        "y": 1200,
+        "type": "observer",
+        "desc": "Rad Offlane Deep Behind Trees"
+    },
+    {
+        "x": -6100,
+        "y": -1500,
+        "type": "observer",
+        "desc": "Rad Secret Shop Cliff"
+    },
+    {
+        "x": 4500,
+        "y": -1200,
+        "type": "observer",
+        "desc": "Dire Offlane Deep Behind Trees"
+    },
+    {
+        "x": 6100,
+        "y": 1500,
+        "type": "observer",
+        "desc": "Dire Secret Shop Cliff"
+    }
+]

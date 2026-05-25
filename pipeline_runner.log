@@ -1,0 +1,828 @@
+[2026-05-25 00:06:29] [RUNNER] === STARTING DOTA 2 AI CONTINUOUS PIPELINE RUNNER ===
+[2026-05-25 00:06:29] [RUNNER] This runner will run forever in the background, scheduled to download and train pro models recursively.
+[2026-05-25 00:06:29] [RUNNER] --- Launching Continuous Learning Iteration #1 ---
+[2026-05-25 00:06:29] [RUNNER] Executing pipeline: run_pipeline.py 30...
+[2026-05-25 00:11:53] [RUNNER] === STARTING DOTA 2 AI DUAL CONTINUOUS LEARNING RUNNER ===
+[2026-05-25 00:11:53] [RUNNER] This runner will run forever, recursively searching the web and retraining models simultaneously.
+[2026-05-25 00:11:53] [RUNNER] --- Launching Continuous Learning Loop Iteration #1 ---
+[2026-05-25 00:11:53] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 00:12:10] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 00:12:10] [RUNNER] Executing pipeline: run_pipeline.py 30...
+[2026-05-25 00:21:25] [RUNNER] === STARTING DOTA 2 AI DUAL CONTINUOUS LEARNING RUNNER ===
+[2026-05-25 00:21:25] [RUNNER] This runner will run forever, recursively searching the web and retraining models simultaneously.
+[2026-05-25 00:21:25] [RUNNER] --- Launching Continuous Learning Loop Iteration #1 ---
+[2026-05-25 00:21:25] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 00:21:41] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 00:21:41] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 01:20:45] [RUNNER] Pipeline executed successfully!
+[2026-05-25 01:20:45] [RUNNER] Pipeline stdout: ssfully parsed in 2.4s.
+--- Progress: 396/407 matches complete | Elapsed Time: 55.4m ---
+[Pipeline Log] Match 8780983890 successfully parsed in 2.5s.
+--- Progress: 397/407 matches complete | Elapsed Time: 55.5m ---
+[Pipeline Log] Match 8781193627 successfully parsed in 2.5s.
+--- Progress: 398/407 matches complete | Elapsed Time: 55.7m ---
+
+Successfully gathered and parsed 398 datasets in 3344.8 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 192.8 seconds.
+
+[2026-05-25 01:20:45] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (7200 seconds)...
+[2026-05-25 02:40:33] [RUNNER] === STARTING DOTA 2 AI DUAL CONTINUOUS LEARNING RUNNER ===
+[2026-05-25 02:40:33] [RUNNER] This runner will run forever, recursively searching the web and retraining models simultaneously.
+[2026-05-25 02:40:33] [RUNNER] --- Launching Continuous Learning Loop Iteration #1 ---
+[2026-05-25 02:40:33] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 02:40:49] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 02:40:49] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 02:44:09] [RUNNER] Pipeline executed successfully!
+[2026-05-25 02:44:09] [RUNNER] Pipeline stdout: ] Match 8813179595 download failed.
+--- Progress: 21/32 matches complete | Elapsed Time: 2.8m ---
+[Pipeline Log] Match 8824162023 successfully parsed in 2.8s.
+--- Progress: 22/32 matches complete | Elapsed Time: 2.9m ---
+[Pipeline Log] Match 8824153795 successfully parsed in 2.7s.
+--- Progress: 23/32 matches complete | Elapsed Time: 3.0m ---
+
+Successfully gathered and parsed 23 datasets in 177.1 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 16.5 seconds.
+
+[2026-05-25 02:44:09] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 02:45:09] [RUNNER] --- Launching Continuous Learning Loop Iteration #2 ---
+[2026-05-25 02:45:09] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 02:45:25] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 02:45:25] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 02:49:42] [RUNNER] Pipeline executed successfully!
+[2026-05-25 02:49:42] [RUNNER] Pipeline stdout: ine Log] Match 8813395044 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8813179595] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 1.8 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 248.7 seconds.
+
+[2026-05-25 02:49:42] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 02:50:42] [RUNNER] --- Launching Continuous Learning Loop Iteration #3 ---
+[2026-05-25 02:50:42] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 02:50:58] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 02:50:58] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 02:55:14] [RUNNER] Pipeline executed successfully!
+[2026-05-25 02:55:14] [RUNNER] Pipeline stdout: ine Log] Match 8814631899 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8813179595] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 2.2 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 248.1 seconds.
+
+[2026-05-25 02:55:14] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 02:56:14] [RUNNER] --- Launching Continuous Learning Loop Iteration #4 ---
+[2026-05-25 02:56:14] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 02:56:30] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 02:56:30] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 03:00:46] [RUNNER] Pipeline executed successfully!
+[2026-05-25 03:00:46] [RUNNER] Pipeline stdout: ine Log] Match 8813286663 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8813179595] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 2.0 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 248.0 seconds.
+
+[2026-05-25 03:00:46] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 03:01:46] [RUNNER] --- Launching Continuous Learning Loop Iteration #5 ---
+[2026-05-25 03:01:46] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 03:02:02] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 03:02:02] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 03:02:24] [RUNNER] Pipeline executed successfully!
+[2026-05-25 03:02:24] [RUNNER] Pipeline stdout: rror downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8814631899_235995696.dem.bz2
+[Pipeline Log] Match 8814631899 download failed.
+--- Progress: 0/10 matches complete | Elapsed Time: 0.0m ---
+[Pipeline Log] Match 8824420153 successfully parsed in 2.3s.
+--- Progress: 1/10 matches complete | Elapsed Time: 0.2m ---
+
+Successfully gathered and parsed 1 datasets in 10.7 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 5.2 seconds.
+
+[2026-05-25 03:02:24] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 03:03:24] [RUNNER] --- Launching Continuous Learning Loop Iteration #6 ---
+[2026-05-25 03:03:24] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 03:03:40] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 03:03:40] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 03:07:56] [RUNNER] Pipeline executed successfully!
+[2026-05-25 03:07:56] [RUNNER] Pipeline stdout: ine Log] Match 8814631899 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8813179595] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 1.7 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 247.9 seconds.
+
+[2026-05-25 03:07:56] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 03:08:56] [RUNNER] --- Launching Continuous Learning Loop Iteration #7 ---
+[2026-05-25 03:08:56] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 03:09:12] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 03:09:12] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 03:13:27] [RUNNER] Pipeline executed successfully!
+[2026-05-25 03:13:27] [RUNNER] Pipeline stdout: ine Log] Match 8813286663 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8813179595] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 1.7 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 246.9 seconds.
+
+[2026-05-25 03:13:27] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 03:14:27] [RUNNER] --- Launching Continuous Learning Loop Iteration #8 ---
+[2026-05-25 03:14:27] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 03:14:43] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 03:14:43] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 03:18:58] [RUNNER] Pipeline executed successfully!
+[2026-05-25 03:18:58] [RUNNER] Pipeline stdout: Log] Match 8813179595 download failed.
+--- Progress: 0/10 matches complete | Elapsed Time: 0.0m ---
+[Match 8813395044] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813395044_1167209450.dem.bz2
+[Pipeline Log] Match 8813395044 download failed.
+--- Progress: 0/10 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 1.9 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 247.1 seconds.
+
+[2026-05-25 03:18:58] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 03:19:58] [RUNNER] --- Launching Continuous Learning Loop Iteration #9 ---
+[2026-05-25 03:19:58] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 03:20:14] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 03:20:14] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 03:20:50] [RUNNER] Pipeline executed successfully!
+[2026-05-25 03:20:50] [RUNNER] Pipeline stdout: Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/10 matches complete | Elapsed Time: 0.3m ---
+[Pipeline Log] Match 8824418320 successfully parsed in 2.9s.
+--- Progress: 1/10 matches complete | Elapsed Time: 0.4m ---
+
+Successfully gathered and parsed 1 datasets in 24.4 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 5.9 seconds.
+
+[2026-05-25 03:20:50] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 03:21:50] [RUNNER] --- Launching Continuous Learning Loop Iteration #10 ---
+[2026-05-25 03:21:50] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 03:22:06] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 03:22:06] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 03:26:23] [RUNNER] Pipeline executed successfully!
+[2026-05-25 03:26:23] [RUNNER] Pipeline stdout: ine Log] Match 8813286663 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8813179595] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 1.9 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 249.0 seconds.
+
+[2026-05-25 03:26:23] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 03:27:23] [RUNNER] --- Launching Continuous Learning Loop Iteration #11 ---
+[2026-05-25 03:27:23] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 03:27:39] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 03:27:39] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 03:31:56] [RUNNER] Pipeline executed successfully!
+[2026-05-25 03:31:56] [RUNNER] Pipeline stdout: ine Log] Match 8814725713 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8813179595] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 2.3 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 247.9 seconds.
+
+[2026-05-25 03:31:56] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 03:32:56] [RUNNER] --- Launching Continuous Learning Loop Iteration #12 ---
+[2026-05-25 03:32:56] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 03:33:12] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 03:33:12] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 03:37:28] [RUNNER] Pipeline executed successfully!
+[2026-05-25 03:37:28] [RUNNER] Pipeline stdout: ne Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8814725713] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8814725713_684363269.dem.bz2
+[Pipeline Log] Match 8814725713 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 1.8 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 248.0 seconds.
+
+[2026-05-25 03:37:28] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 03:38:28] [RUNNER] --- Launching Continuous Learning Loop Iteration #13 ---
+[2026-05-25 03:38:28] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 03:38:44] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 03:38:44] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 03:39:10] [RUNNER] Pipeline executed successfully!
+[2026-05-25 03:39:10] [RUNNER] Pipeline stdout: Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/10 matches complete | Elapsed Time: 0.0m ---
+[Pipeline Log] Match 8824428207 successfully parsed in 2.1s.
+--- Progress: 1/10 matches complete | Elapsed Time: 0.3m ---
+
+Successfully gathered and parsed 1 datasets in 15.2 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 5.2 seconds.
+
+[2026-05-25 03:39:10] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 03:40:10] [RUNNER] --- Launching Continuous Learning Loop Iteration #14 ---
+[2026-05-25 03:40:10] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 03:40:26] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 03:40:26] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 03:44:42] [RUNNER] Pipeline executed successfully!
+[2026-05-25 03:44:42] [RUNNER] Pipeline stdout: e Log] Match 8813395044 download failed.
+--- Progress: 0/10 matches complete | Elapsed Time: 0.0m ---
+[Match 8813179595] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/10 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 1.8 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 248.3 seconds.
+
+[2026-05-25 03:44:42] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 03:45:42] [RUNNER] --- Launching Continuous Learning Loop Iteration #15 ---
+[2026-05-25 03:45:42] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 03:45:59] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 03:45:59] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 03:46:25] [RUNNER] Pipeline executed successfully!
+[2026-05-25 03:46:25] [RUNNER] Pipeline stdout: Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/10 matches complete | Elapsed Time: 0.0m ---
+[Pipeline Log] Match 8824442715 successfully parsed in 2.1s.
+--- Progress: 1/10 matches complete | Elapsed Time: 0.2m ---
+
+Successfully gathered and parsed 1 datasets in 14.8 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 5.2 seconds.
+
+[2026-05-25 03:46:25] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 03:47:25] [RUNNER] --- Launching Continuous Learning Loop Iteration #16 ---
+[2026-05-25 03:47:25] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 03:47:41] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 03:47:41] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 03:52:01] [RUNNER] Pipeline executed successfully!
+[2026-05-25 03:52:01] [RUNNER] Pipeline stdout: ine Log] Match 8813395044 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8813179595] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 2.4 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 251.3 seconds.
+
+[2026-05-25 03:52:01] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 03:53:01] [RUNNER] --- Launching Continuous Learning Loop Iteration #17 ---
+[2026-05-25 03:53:01] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 03:53:22] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 03:53:22] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 03:53:23] [RUNNER] Pipeline executed successfully!
+[2026-05-25 03:53:23] [RUNNER] Pipeline stdout: lorer query: 521 Server Error: <none> for url: https://api.opendota.com/api/explorer?sql=SELECT%20match_id,%20cluster,%20replay_salt%20FROM%20matches%20ORDER%20BY%20match_id%20DESC%20LIMIT%20500%20OFFSET%200&api_key=deb3dc65-2e3a-4c9e-9d16-bce6ff480468
+Provider 1: Discovered 0 valid matches total after paginated filtering.
+Discovering matches from Provider 2: OpenDota /proMatches endpoint...
+Discovering matches from Provider 3: Stratz GraphQL...
+Failed to retrieve matches from any API provider.
+
+[2026-05-25 03:53:23] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 03:54:23] [RUNNER] --- Launching Continuous Learning Loop Iteration #18 ---
+[2026-05-25 03:54:23] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 03:54:39] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 03:54:39] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 03:58:56] [RUNNER] Pipeline executed successfully!
+[2026-05-25 03:58:56] [RUNNER] Pipeline stdout: ine Log] Match 8813395044 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8813179595] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 1.7 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 248.8 seconds.
+
+[2026-05-25 03:58:56] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 03:59:56] [RUNNER] --- Launching Continuous Learning Loop Iteration #19 ---
+[2026-05-25 03:59:56] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 04:00:12] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 04:00:12] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 04:04:31] [RUNNER] Pipeline executed successfully!
+[2026-05-25 04:04:31] [RUNNER] Pipeline stdout: ine Log] Match 8813395044 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8813179595] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 1.8 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 250.5 seconds.
+
+[2026-05-25 04:04:31] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 04:05:31] [RUNNER] --- Launching Continuous Learning Loop Iteration #20 ---
+[2026-05-25 04:05:31] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 04:05:47] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 04:05:47] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 04:10:04] [RUNNER] Pipeline executed successfully!
+[2026-05-25 04:10:04] [RUNNER] Pipeline stdout: ine Log] Match 8813286663 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8813179595] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 1.8 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 249.3 seconds.
+
+[2026-05-25 04:10:04] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 04:11:04] [RUNNER] --- Launching Continuous Learning Loop Iteration #21 ---
+[2026-05-25 04:11:04] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 04:11:20] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 04:11:20] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 04:15:37] [RUNNER] Pipeline executed successfully!
+[2026-05-25 04:15:37] [RUNNER] Pipeline stdout: ne Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8814725713] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8814725713_684363269.dem.bz2
+[Pipeline Log] Match 8814725713 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 2.3 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 248.1 seconds.
+
+[2026-05-25 04:15:37] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 04:16:37] [RUNNER] --- Launching Continuous Learning Loop Iteration #22 ---
+[2026-05-25 04:16:37] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 04:16:53] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 04:16:53] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 04:21:11] [RUNNER] Pipeline executed successfully!
+[2026-05-25 04:21:11] [RUNNER] Pipeline stdout: ine Log] Match 8813286663 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8813179595] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.1m ---
+
+Successfully gathered and parsed 0 datasets in 3.3 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 249.3 seconds.
+
+[2026-05-25 04:21:11] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 04:22:11] [RUNNER] --- Launching Continuous Learning Loop Iteration #23 ---
+[2026-05-25 04:22:11] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 04:22:28] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 04:22:28] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 04:26:44] [RUNNER] Pipeline executed successfully!
+[2026-05-25 04:26:44] [RUNNER] Pipeline stdout: ine Log] Match 8813286663 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8813179595] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 2.1 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 248.7 seconds.
+
+[2026-05-25 04:26:44] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 04:27:44] [RUNNER] --- Launching Continuous Learning Loop Iteration #24 ---
+[2026-05-25 04:27:44] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 04:28:00] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 04:28:00] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 04:32:18] [RUNNER] Pipeline executed successfully!
+[2026-05-25 04:32:18] [RUNNER] Pipeline stdout:  Log] Match 8813395044 download failed.
+--- Progress: 0/10 matches complete | Elapsed Time: 0.0m ---
+[Match 8814631899] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8814631899_235995696.dem.bz2
+[Pipeline Log] Match 8814631899 download failed.
+--- Progress: 0/10 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 2.0 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 249.4 seconds.
+
+[2026-05-25 04:32:18] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 04:33:18] [RUNNER] --- Launching Continuous Learning Loop Iteration #25 ---
+[2026-05-25 04:33:18] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 04:33:34] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 04:33:34] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 04:34:03] [RUNNER] Pipeline executed successfully!
+[2026-05-25 04:34:03] [RUNNER] Pipeline stdout: Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/10 matches complete | Elapsed Time: 0.0m ---
+[Pipeline Log] Match 8824462450 successfully parsed in 2.2s.
+--- Progress: 1/10 matches complete | Elapsed Time: 0.3m ---
+
+Successfully gathered and parsed 1 datasets in 18.2 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 5.2 seconds.
+
+[2026-05-25 04:34:03] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 04:35:03] [RUNNER] --- Launching Continuous Learning Loop Iteration #26 ---
+[2026-05-25 04:35:03] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 04:35:19] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 04:35:19] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 04:39:48] [RUNNER] Pipeline executed successfully!
+[2026-05-25 04:39:48] [RUNNER] Pipeline stdout: ine Log] Match 8813286663 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8813179595] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 1.9 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 260.6 seconds.
+
+[2026-05-25 04:39:48] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 04:40:48] [RUNNER] --- Launching Continuous Learning Loop Iteration #27 ---
+[2026-05-25 04:40:48] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 04:41:04] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 04:41:04] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 04:45:22] [RUNNER] Pipeline executed successfully!
+[2026-05-25 04:45:22] [RUNNER] Pipeline stdout: ine Log] Match 8813286663 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8813179595] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 2.2 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 250.4 seconds.
+
+[2026-05-25 04:45:22] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 04:46:22] [RUNNER] --- Launching Continuous Learning Loop Iteration #28 ---
+[2026-05-25 04:46:22] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 04:46:38] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 04:46:38] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 04:51:00] [RUNNER] Pipeline executed successfully!
+[2026-05-25 04:51:00] [RUNNER] Pipeline stdout: ine Log] Match 8813286663 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8813179595] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 1.8 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 253.4 seconds.
+
+[2026-05-25 04:51:00] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 04:52:00] [RUNNER] --- Launching Continuous Learning Loop Iteration #29 ---
+[2026-05-25 04:52:00] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 04:52:16] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 04:52:16] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 04:56:35] [RUNNER] Pipeline executed successfully!
+[2026-05-25 04:56:35] [RUNNER] Pipeline stdout: ne Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8814631899] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8814631899_235995696.dem.bz2
+[Pipeline Log] Match 8814631899 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 2.5 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 251.1 seconds.
+
+[2026-05-25 04:56:35] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 04:57:35] [RUNNER] --- Launching Continuous Learning Loop Iteration #30 ---
+[2026-05-25 04:57:35] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 04:57:52] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 04:57:52] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 05:02:09] [RUNNER] Pipeline executed successfully!
+[2026-05-25 05:02:09] [RUNNER] Pipeline stdout: ine Log] Match 8813395044 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8813179595] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 1.7 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 250.1 seconds.
+
+[2026-05-25 05:02:09] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 05:03:09] [RUNNER] --- Launching Continuous Learning Loop Iteration #31 ---
+[2026-05-25 05:03:09] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 05:03:26] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 05:03:26] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 05:07:44] [RUNNER] Pipeline executed successfully!
+[2026-05-25 05:07:44] [RUNNER] Pipeline stdout: ne Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8814725713] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8814725713_684363269.dem.bz2
+[Pipeline Log] Match 8814725713 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 2.4 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 250.5 seconds.
+
+[2026-05-25 05:07:44] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 05:08:44] [RUNNER] --- Launching Continuous Learning Loop Iteration #32 ---
+[2026-05-25 05:08:44] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 05:09:01] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 05:09:01] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 05:13:22] [RUNNER] Pipeline executed successfully!
+[2026-05-25 05:13:22] [RUNNER] Pipeline stdout: ine Log] Match 8813395044 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8813179595] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 2.5 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 252.4 seconds.
+
+[2026-05-25 05:13:22] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 05:14:22] [RUNNER] --- Launching Continuous Learning Loop Iteration #33 ---
+[2026-05-25 05:14:22] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 05:14:38] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 05:14:38] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 05:18:57] [RUNNER] Pipeline executed successfully!
+[2026-05-25 05:18:57] [RUNNER] Pipeline stdout: e Log] Match 8813179595 download failed.
+--- Progress: 0/10 matches complete | Elapsed Time: 0.0m ---
+[Match 8813286663] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813286663_57935550.dem.bz2
+[Pipeline Log] Match 8813286663 download failed.
+--- Progress: 0/10 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 2.0 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 251.4 seconds.
+
+[2026-05-25 05:18:57] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 05:19:57] [RUNNER] --- Launching Continuous Learning Loop Iteration #34 ---
+[2026-05-25 05:19:57] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 05:20:13] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 05:20:13] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 05:20:43] [RUNNER] Pipeline executed successfully!
+[2026-05-25 05:20:43] [RUNNER] Pipeline stdout: Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/10 matches complete | Elapsed Time: 0.0m ---
+[Pipeline Log] Match 8824486874 successfully parsed in 2.4s.
+--- Progress: 1/10 matches complete | Elapsed Time: 0.3m ---
+
+Successfully gathered and parsed 1 datasets in 18.3 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 5.3 seconds.
+
+[2026-05-25 05:20:43] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 05:21:43] [RUNNER] --- Launching Continuous Learning Loop Iteration #35 ---
+[2026-05-25 05:21:43] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 05:21:59] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 05:21:59] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 05:26:19] [RUNNER] Pipeline executed successfully!
+[2026-05-25 05:26:19] [RUNNER] Pipeline stdout: ne Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8814631899] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8814631899_235995696.dem.bz2
+[Pipeline Log] Match 8814631899 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 2.3 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 251.2 seconds.
+
+[2026-05-25 05:26:19] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 05:27:19] [RUNNER] --- Launching Continuous Learning Loop Iteration #36 ---
+[2026-05-25 05:27:19] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 05:27:35] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 05:27:35] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 05:32:14] [RUNNER] Pipeline executed successfully!
+[2026-05-25 05:32:14] [RUNNER] Pipeline stdout: ine Log] Match 8813395044 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8813179595] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 2.3 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 271.0 seconds.
+
+[2026-05-25 05:32:14] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 05:33:14] [RUNNER] --- Launching Continuous Learning Loop Iteration #37 ---
+[2026-05-25 05:33:14] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 05:33:30] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 05:33:30] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 05:37:48] [RUNNER] Pipeline executed successfully!
+[2026-05-25 05:37:48] [RUNNER] Pipeline stdout: ine Log] Match 8813286663 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8813179595] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 1.8 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 249.8 seconds.
+
+[2026-05-25 05:37:48] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 05:38:48] [RUNNER] --- Launching Continuous Learning Loop Iteration #38 ---
+[2026-05-25 05:38:48] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 05:39:04] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 05:39:04] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 05:43:21] [RUNNER] Pipeline executed successfully!
+[2026-05-25 05:43:21] [RUNNER] Pipeline stdout: ine Log] Match 8814725713 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8813179595] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 2.0 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 249.0 seconds.
+
+[2026-05-25 05:43:21] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 05:44:21] [RUNNER] --- Launching Continuous Learning Loop Iteration #39 ---
+[2026-05-25 05:44:21] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 05:44:37] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 05:44:37] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 05:48:55] [RUNNER] Pipeline executed successfully!
+[2026-05-25 05:48:55] [RUNNER] Pipeline stdout: ne Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8814725713] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8814725713_684363269.dem.bz2
+[Pipeline Log] Match 8814725713 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 2.2 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 249.8 seconds.
+
+[2026-05-25 05:48:55] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 05:49:55] [RUNNER] --- Launching Continuous Learning Loop Iteration #40 ---
+[2026-05-25 05:49:55] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 05:50:12] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 05:50:12] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 05:50:37] [RUNNER] Pipeline executed successfully!
+[2026-05-25 05:50:37] [RUNNER] Pipeline stdout: Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/10 matches complete | Elapsed Time: 0.0m ---
+[Pipeline Log] Match 8824510311 successfully parsed in 2.2s.
+--- Progress: 1/10 matches complete | Elapsed Time: 0.2m ---
+
+Successfully gathered and parsed 1 datasets in 13.5 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 5.4 seconds.
+
+[2026-05-25 05:50:37] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 05:51:37] [RUNNER] --- Launching Continuous Learning Loop Iteration #41 ---
+[2026-05-25 05:51:37] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 05:51:53] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 05:51:53] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 05:56:12] [RUNNER] Pipeline executed successfully!
+[2026-05-25 05:56:12] [RUNNER] Pipeline stdout: e Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8823663735] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8823663735_2114645333.dem.bz2
+[Pipeline Log] Match 8823663735 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 1.9 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 251.1 seconds.
+
+[2026-05-25 05:56:12] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 05:57:12] [RUNNER] --- Launching Continuous Learning Loop Iteration #42 ---
+[2026-05-25 05:57:12] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 05:57:28] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 05:57:28] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 07:05:14] [RUNNER] === STARTING DOTA 2 AI DUAL CONTINUOUS LEARNING RUNNER ===
+[2026-05-25 07:05:14] [RUNNER] This runner will run forever, recursively searching the web and retraining models simultaneously.
+[2026-05-25 07:05:14] [RUNNER] --- Launching Continuous Learning Loop Iteration #1 ---
+[2026-05-25 07:05:14] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 07:05:30] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 07:05:30] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 07:06:09] [RUNNER] Pipeline executed successfully!
+[2026-05-25 07:06:09] [RUNNER] Pipeline stdout: ne Log] Match 8813179595 download failed.
+--- Progress: 0/11 matches complete | Elapsed Time: 0.1m ---
+[Pipeline Log] Match 8824529565 successfully parsed in 2.3s.
+--- Progress: 1/11 matches complete | Elapsed Time: 0.2m ---
+[Pipeline Log] Match 8824509351 successfully parsed in 2.5s.
+--- Progress: 2/11 matches complete | Elapsed Time: 0.4m ---
+
+Successfully gathered and parsed 2 datasets in 25.8 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 6.6 seconds.
+
+[2026-05-25 07:06:09] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 07:07:09] [RUNNER] --- Launching Continuous Learning Loop Iteration #2 ---
+[2026-05-25 07:07:09] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 07:07:25] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 07:07:25] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 07:11:47] [RUNNER] Pipeline executed successfully!
+[2026-05-25 07:11:47] [RUNNER] Pipeline stdout: ine Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8813286663] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813286663_57935550.dem.bz2
+[Pipeline Log] Match 8813286663 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 2.0 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 253.1 seconds.
+
+[2026-05-25 07:11:47] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 07:12:47] [RUNNER] --- Launching Continuous Learning Loop Iteration #3 ---
+[2026-05-25 07:12:47] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 07:13:03] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 07:13:03] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 07:17:23] [RUNNER] Pipeline executed successfully!
+[2026-05-25 07:17:23] [RUNNER] Pipeline stdout: e Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8813395044] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813395044_1167209450.dem.bz2
+[Pipeline Log] Match 8813395044 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 2.0 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 252.7 seconds.
+
+[2026-05-25 07:17:23] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 07:18:24] [RUNNER] --- Launching Continuous Learning Loop Iteration #4 ---
+[2026-05-25 07:18:24] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 07:18:40] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 07:18:40] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 07:23:02] [RUNNER] Pipeline executed successfully!
+[2026-05-25 07:23:02] [RUNNER] Pipeline stdout: ine Log] Match 8814631899 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+[Match 8813179595] Error downloading: 403 Client Error: Forbidden for url: http://replay413.valve.net/570/8813179595_12702332.dem.bz2
+[Pipeline Log] Match 8813179595 download failed.
+--- Progress: 0/9 matches complete | Elapsed Time: 0.0m ---
+
+Successfully gathered and parsed 0 datasets in 2.9 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 253.8 seconds.
+
+[2026-05-25 07:23:02] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 07:24:02] [RUNNER] --- Launching Continuous Learning Loop Iteration #5 ---
+[2026-05-25 07:24:02] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 07:24:19] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 07:24:19] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 11:10:38] [RUNNER] === STARTING DOTA 2 AI DUAL CONTINUOUS LEARNING RUNNER ===
+[2026-05-25 11:10:38] [RUNNER] This runner will run forever, recursively searching the web and retraining models simultaneously.
+[2026-05-25 11:10:38] [RUNNER] --- Launching Continuous Learning Loop Iteration #1 ---
+[2026-05-25 11:10:38] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 11:10:55] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 11:10:55] [RUNNER] Executing pipeline: run_pipeline.py 1600...
+[2026-05-25 11:13:15] [RUNNER] Pipeline executed successfully!
+[2026-05-25 11:13:15] [RUNNER] Pipeline stdout: 572586 successfully parsed in 4.4s.
+--- Progress: 14/25 matches complete | Elapsed Time: 1.9m ---
+[Pipeline Log] Match 8824576340 successfully parsed in 2.4s.
+--- Progress: 15/25 matches complete | Elapsed Time: 1.9m ---
+[Pipeline Log] Match 8824543327 successfully parsed in 1.4s.
+--- Progress: 16/25 matches complete | Elapsed Time: 2.0m ---
+
+Successfully gathered and parsed 16 datasets in 117.6 seconds!
+
+=== Launching Model Training on New Datasets ===
+Model training completed in 15.5 seconds.
+
+[2026-05-25 11:13:15] [RUNNER] Iteration completed! Next cycle scheduled in 2 hours (60 seconds)...
+[2026-05-25 11:14:15] [RUNNER] --- Launching Continuous Learning Loop Iteration #2 ---
+[2026-05-25 11:14:15] [RUNNER] Executing web crawler: web_researcher.py...
+[2026-05-25 11:14:31] [RUNNER] Internet intelligence successfully refreshed!
+[2026-05-25 11:14:31] [RUNNER] Executing pipeline: run_pipeline.py 1600...

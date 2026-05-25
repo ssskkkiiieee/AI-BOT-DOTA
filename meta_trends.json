@@ -1,0 +1,44 @@
+{
+    "timestamp": "2026-05-25 11:14:31",
+    "observer_spots": [
+        {
+            "x": -1700,
+            "y": -4200,
+            "z": 128,
+            "desc": "Rad Deep Edge"
+        },
+        {
+            "x": 1700,
+            "y": 4200,
+            "z": 128,
+            "desc": "Dire Deep Edge"
+        },
+        {
+            "x": -3200,
+            "y": -3800,
+            "z": 128,
+            "desc": "Rad Jungle HG"
+        },
+        {
+            "x": 3200,
+            "y": 3800,
+            "z": 128,
+            "desc": "Dire Jungle HG"
+        }
+    ],
+    "sentry_spots": [
+        {
+            "x": -2350,
+            "y": 1800,
+            "z": 128,
+            "desc": "Rosh Pit Entrance Sentry"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 128,
+            "desc": "Mid River Sentry"
+        }
+    ],
+    "top_meta_heroes": []
+}
